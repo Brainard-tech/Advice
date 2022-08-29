@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right,#f88f6cb6 , rgb(219, 109, 75));
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.bg-advice{
+    width: 500px;
+    height: 290px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+    padding: 20px;
+}
+.bg-advice i{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.bg-advice button{
+    background-image: linear-gradient(to right,#f88f6cb6 , rgb(219, 109, 75));
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    cursor: pointer;
+
+    width: 150px;
+}
+.bg-advice button:hover{
+    background-color: rgb(255, 64, 0);
+}
